@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ft_md_101_dartt.iml" filepath="$PROJECT_DIR$/ft_md_101_dartt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/ft_md_101_dartt_android.iml" filepath="$PROJECT_DIR$/android/ft_md_101_dartt_android.iml" />
+    </modules>
+  </component>
+</project>
