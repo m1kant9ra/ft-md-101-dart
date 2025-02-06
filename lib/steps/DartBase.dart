@@ -1,3 +1,4 @@
+import 'package:ft_md_101_dartt/steps/utils/DartChild.dart';
 import 'package:ft_md_101_dartt/steps/utils/DartMethod.dart';
 import 'package:ft_md_101_dartt/steps/utils/DartPackage.dart';
 import 'package:ft_md_101_dartt/steps/utils/DartSignature.dart';
@@ -14,6 +15,7 @@ class DartBase{
     _stepPackage();
     _stepMethod();
     _stepSignature();
+    _stepInheritance();
   }
 
   void _stepConf() {
@@ -59,5 +61,10 @@ class DartBase{
     ds.first = "first after set";
     ds.second = "second after set";
     ds.run();
+  }
+
+  void _stepInheritance() {
+    var dc = DartChild();
+    dc.run();
   }
 }
