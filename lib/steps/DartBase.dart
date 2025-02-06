@@ -1,9 +1,12 @@
+import 'ClassInstance.dart';
+
 class DartBase{
   void run(){
     print('DartBase: Hello, World!');
 
     _stepConf();
     _stepDataType();
+    _stepClassInstance();
   }
 
   void _stepConf() {
@@ -24,5 +27,10 @@ class DartBase{
 
     DartBase db = DartBase();
     db._stepConf();
+  }
+
+  void _stepClassInstance() {
+    ClassInstance ci = ClassInstance();
+    ci.run();
   }
 }
